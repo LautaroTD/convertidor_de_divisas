@@ -1,28 +1,23 @@
 <template>
-  <HelloWorld msg="Convertidor de Divisas"/>
-    <h1>hi</h1>
+    <LlamadaApi />
+    <TextoGuia/>
 </template>
 
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import LlamadaApi from './components/LlamadaApi.vue';
+    import TextoGuia from './components/TextoGuia.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            LlamadaApi,
+            TextoGuia
+        }
+    }
 </script>
 
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
